@@ -15,6 +15,10 @@ public class MenuItem {
     }
 
     // 기능
+    public String getName() {
+        return name;
+    }
+
     public void printItem() {
         System.out.print(name + " | ");
         System.out.print("￦ " + price + " | ");
